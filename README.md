@@ -1,4 +1,0 @@
-fireflycap
-==========
-
-Firefly Cap
