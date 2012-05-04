@@ -1,0 +1,447 @@
+# EESchema Netlist Version 1.1 created  Thu May  3 16:07:55 2012
+(
+ ( /4D0C4D74 GSG-ESHSR-0003-SIDE C1 3F
+  ( 1 /VCAP )
+  ( 2 GND )
+ )
+ ( /4F076214 GSG-0805 C2 10_uF
+  ( 1 /VIN )
+  ( 2 GND )
+ )
+ ( /4F07627C GSG-1206 C3 47_uF
+  ( 1 N-000042 )
+  ( 2 GND )
+ )
+ ( /4F09B4AF GSG-0603 C4 2.2nF
+  ( 1 GND )
+  ( 2 /RST )
+ )
+ ( /4DB88012 GSG-0603 C5 100nF
+  ( 1 GND )
+  ( 2 VCC )
+ )
+ ( /4F9D46F0 GSG-0805 C6 10_uF
+  ( 1 GND )
+  ( 2 VCC )
+ )
+ ( /4F9232AD GSG-0805 C7 2.2nF
+  ( 1 GND )
+  ( 2 /A1 )
+ )
+ ( /4F9232BC GSG-0805 C8 2.2nF
+  ( 1 GND )
+  ( 2 /A2 )
+ )
+ ( /4FA1C7D7 GSG-0805 C9 10_uF
+  ( 1 /VOUT )
+  ( 2 GND )
+ )
+ ( /4F076179 GSG-SOD-523F D1 DIODESCH
+  ( 1 /VCHARGE )
+  ( 2 /VCAP )
+ )
+ ( /4F593075 GSG-SOD-523F D2 DIODESCH
+  ( 1 /LX )
+  ( 2 /VOUT )
+ )
+ ( /4D98E62D GSG-1210 L1 47_uH
+  ( 1 /LX )
+  ( 2 /VIN )
+ )
+ ( /4CEED92C GSG-PINTST P1 CONN_1
+  ( 1 /P1 )
+ )
+ ( /4CEED935 GSG-PINTST P2 CONN_1
+  ( 1 /P2 )
+ )
+ ( /4CEED937 GSG-PINTST P3 CONN_1
+  ( 1 /P3 )
+ )
+ ( /4CEED93A GSG-PINTST P4 CONN_1
+  ( 1 /P4 )
+ )
+ ( /4F09B049 GSG-HEADER-SMD-2x1 P5 CONN_2
+  ( 1 /VPV )
+  ( 2 /VCHARGE )
+ )
+ ( /4DB8E044 GSG-HEADER-SMD-2x1 P6 CONN_2
+  ( 1 GND )
+  ( 2 /VPV )
+ )
+ ( /4DB8E160 GSG-HEADER-SMD-2x1 P7 CONN_2
+  ( 1 GND )
+  ( 2 /VCAP )
+ )
+ ( /4DB8E16C GSG-HEADER-SMD-2x1 P8 CONN_2
+  ( 1 GND )
+  ( 2 VCC )
+ )
+ ( /4F9230A6 GSG-TESTPOINT P9 CONN_1
+  ( 1 GND )
+ )
+ ( /4FA2F133 GSG-HEADER-SMD-2x2 P10 CONN_2X2
+  ( 1 /VTGT )
+  ( 2 VCC )
+  ( 3 /VTOOL )
+  ( 4 VCC )
+ )
+ ( /4F09AFBC GSG-HEADER-SMD-2x1-BRIDGED P11 CONN_2
+  ( 1 /VCAP )
+  ( 2 /VIN )
+ )
+ ( /4F9230C4 GSG-TESTPOINT P12 CONN_1
+  ( 1 VCC )
+ )
+ ( /4F9211F7 GSG-HEADER-SMD-2x1-BRIDGED P13 CONN_2
+  ( 1 N-000042 )
+  ( 2 VCC )
+ )
+ ( /4F4AD8F5 GSG-HEADER-SMD-2x7 P14 JTAG
+  ( 1 /TDO )
+  ( 2 /VTOOL )
+  ( 3 /TDI )
+  ( 4 /VTGT )
+  ( 5 /TMS )
+  ( 6 ? )
+  ( 7 /TCK )
+  ( 8 /TEST )
+  ( 9 GND )
+  ( 10 ? )
+  ( 11 /RST )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+ )
+ ( /4F91EEFF GSG-HEADER-SMD-2x1-BRIDGED P15 CONN_2
+  ( 1 /VOUT )
+  ( 2 N-000038 )
+ )
+ ( /4F923409 GSG-TESTPOINT P16 CONN_1
+  ( 1 /VCAP )
+ )
+ ( /4F91EF3D GSG-HEADER-SMD-2x1-BRIDGED P17 CONN_2
+  ( 1 /VCHARGE )
+  ( 2 N-000011 )
+ )
+ ( /4F91EEAB GSG-HEADER-SMD-2x1-BRIDGED P18 CONN_2
+  ( 1 N-000047 )
+  ( 2 /CE )
+ )
+ ( /4F922B1B GSG-HEADER-2x8 P19 EXPANSION
+  ( 1 /P2.0 )
+  ( 2 /P2.1 )
+  ( 3 /P2.2 )
+  ( 4 /P2.3 )
+  ( 5 /P2.4 )
+  ( 6 /P2.5 )
+  ( 7 /P2.6 )
+  ( 8 /P2.7 )
+  ( 9 /TMS )
+  ( 10 /TDI )
+  ( 11 /TDO )
+  ( 12 /TCK )
+  ( 13 /RST )
+  ( 14 /P1.0 )
+  ( 15 GND )
+  ( 16 VCC )
+ )
+ ( /4D98E579 AM-1454 PV1 PHOTOVOLTAIC_CELL
+  ( 1 /VPV )
+  ( 2 GND )
+ )
+ ( /4F91E4D3 SOT23GDS Q1 MOSFET_P
+  ( D N-000042 )
+  ( G N-000045 )
+  ( S /VOUT )
+ )
+ ( /4F95C668 SOT23GDS Q2 MOSFET_P
+  ( D N-000040 )
+  ( G /P2.0 )
+  ( S N-000038 )
+ )
+ ( /4FA1BAE8 SOT23EBC Q3 PNP
+  ( 1 N-000038 )
+  ( 2 N-000040 )
+  ( 3 N-000041 )
+ )
+ ( /4FA1D06D SOT23EBC Q4 NPN
+  ( 1 GND )
+  ( 2 N-000044 )
+  ( 3 N-000039 )
+ )
+ ( /4F90850D SOT23EBC Q5 NPN
+  ( 1 GND )
+  ( 2 N-000003 )
+  ( 3 N-000039 )
+ )
+ ( /4FA1D06F SOT23EBC Q6 NPN
+  ( 1 GND )
+  ( 2 N-000045 )
+  ( 3 N-000047 )
+ )
+ ( /4CEE8176 GSG-0603 R1 47k
+  ( 1 VCC )
+  ( 2 /RST )
+ )
+ ( /4CEED97F GSG-0805 R2 4M7
+  ( 1 /A1 )
+  ( 2 /VPV )
+ )
+ ( /4D9A76AB GSG-0805 R3 4M7
+  ( 1 GND )
+  ( 2 /A1 )
+ )
+ ( /4CEE81A0 GSG-0603 R4 100
+  ( 1 /P1 )
+  ( 2 /P2.1 )
+ )
+ ( /4CEE81AD GSG-0603 R5 100
+  ( 1 /P2 )
+  ( 2 /P2.2 )
+ )
+ ( /4CEED70A GSG-0603 R6 100
+  ( 1 /P3 )
+  ( 2 /P2.3 )
+ )
+ ( /4CEED712 GSG-0603 R7 100
+  ( 1 /P4 )
+  ( 2 /P2.4 )
+ )
+ ( /4F593F39 GSG-0805 R8 4M7
+  ( 1 /A2 )
+  ( 2 /VCAP )
+ )
+ ( /4F593F37 GSG-0805 R9 4M7
+  ( 1 GND )
+  ( 2 /A2 )
+ )
+ ( /4F92257E GSG-0603 R10 330
+  ( 1 /SINK )
+  ( 2 VCC )
+ )
+ ( /4FA1BB43 GSG-0805 R11 4M7
+  ( 1 N-000047 )
+  ( 2 N-000038 )
+ )
+ ( /4F908565 GSG-0805 R12 10M
+  ( 1 N-000038 )
+  ( 2 N-000039 )
+ )
+ ( /4F95CE16 GSG-0805 R13 4M7
+  ( 1 N-000040 )
+  ( 2 N-000039 )
+ )
+ ( /4F974985 GSG-0805 R14 4M7
+  ( 1 N-000044 )
+  ( 2 /P2.0 )
+ )
+ ( /4FA1BB27 GSG-0805 R15 10M
+  ( 1 N-000045 )
+  ( 2 N-000041 )
+ )
+ ( /4F909058 GSG-0805 R16 10M
+  ( 1 N-000003 )
+  ( 2 N-000011 )
+ )
+ ( /4F9746E8 GSG-0805 R17 10M
+  ( 1 /P2.0 )
+  ( 2 GND )
+ )
+ ( /4FA1BAFF GSG-0805 R18 10M
+  ( 1 N-000041 )
+  ( 2 GND )
+ )
+ ( /4F592F40 SOT23-5 U1 NCP1400
+  ( 1 /CE )
+  ( 2 /VOUT )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 /LX )
+ )
+ ( /4F4A968B GSG-TSSOP20 U2 MSP430G2X52
+  ( 1 VCC )
+  ( 2 /P1.0 )
+  ( 3 /A1 )
+  ( 4 /A2 )
+  ( 5 /SINK )
+  ( 6 /TCK )
+  ( 7 /TMS )
+  ( 8 /P2.0 )
+  ( 9 /P2.1 )
+  ( 10 /P2.2 )
+  ( 11 /P2.3 )
+  ( 12 /P2.4 )
+  ( 13 /P2.5 )
+  ( 14 /TDI )
+  ( 15 /TDO )
+  ( 16 /RST )
+  ( 17 /TEST )
+  ( 18 /P2.7 )
+  ( 19 /P2.6 )
+  ( 20 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}
