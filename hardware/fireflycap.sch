@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu May  3 22:59:48 2012
+EESchema Schematic File Version 2  date Mon May  7 21:24:55 2012
 LIBS:fireflycap
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "Firefly Cap"
-Date "3 may 2012"
+Date "8 may 2012"
 Rev ""
 Comp "Copyright 2012 Michael Ossmann"
 Comment1 "License: GPL v2, http://greatscottgadgets.com/fireflycap/"
@@ -791,8 +791,8 @@ F 0 "R10" V 7630 2700 50  0000 C CNN
 F 1 "330" V 7550 2700 50  0000 C CNN
 F 2 "GSG-0603" H 7550 2700 60  0001 C CNN
 F 4 "Panasonic" V 7550 2700 60  0001 C CNN "Manufacturer"
-F 5 "ERJ-3GEYJ101V" V 7550 2700 60  0001 C CNN "Part Number"
-F 6 "Thick Film Resistors Thick Film Chip Res 0603 1/16W 5%" V 7550 2700 60  0001 C CNN "Description"
+F 5 "ERJ-3GEYJ331V" V 7550 2700 60  0001 C CNN "Part Number"
+F 6 "RES 330 OHM 1/10W 5% 0603 SMD" V 7550 2700 60  0001 C CNN "Description"
 	1    7550 2700
 	-1   0    0    1   
 $EndComp
@@ -1365,7 +1365,7 @@ F 0 "C1" H 1800 2300 50  0000 L CNN
 F 1 "3F" H 1800 2100 50  0000 L CNN
 F 2 "GSG-ESHSR-0003-SIDE" H 1750 2200 60  0001 C CNN
 F 4 "Nesscap" H 1750 2200 60  0001 C CNN "Manufacturer"
-F 5 "ESHR-0003C0-002R7" H 1750 2200 60  0001 C CNN "Part Number"
+F 5 "ESHSR-0003C0-002R7" H 1750 2200 60  0001 C CNN "Part Number"
 F 6 "Ultracapacitor 3F 2.7V" H 1750 2200 60  0001 C CNN "Description"
 	1    1750 2200
 	1    0    0    -1  
